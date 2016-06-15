@@ -1,0 +1,19 @@
+{
+  "name": "react-native-material-btn",
+  "version": "0.1.0",
+  "description": "#### 使用 ```js import MaterialBtn from 'material-btn'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyygtfx/react-native-material-btn.git"
+  },
+  "author": "Go7hic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyygtfx/react-native-material-btn/issues"
+  },
+  "homepage": "https://github.com/dyygtfx/react-native-material-btn#readme"
+}
