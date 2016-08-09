@@ -1,6 +1,9 @@
 # react-native-material-btn
 
-#### 使用
+#### Install
+`npm install react-native-material-btn --save
+
+#### Usage
 ```js
 import MaterialBtn from 'material-btn'
 
@@ -20,6 +23,6 @@ render() {
 
 
 
-#### 效果
+#### DEMO
 ![demo.gif](demo.gif)
 
