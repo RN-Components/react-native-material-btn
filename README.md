@@ -90,3 +90,6 @@ render() {
 #### DEMO
 ![demo.gif](demo.gif)
 
+#### Tanks
+https://github.com/Recr0ns/react-native-material-button
+
