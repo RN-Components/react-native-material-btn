@@ -1,7 +1,7 @@
 # react-native-material-btn
 
 #### Install
-`npm install react-native-material-btn --save
+`npm install react-native-material-btn --save`
 
 #### Usage
 ```js
@@ -14,7 +14,7 @@ render() {
           rippleColor='rgba(255, 255, 255, 0.2)'
           style={{marginBottom: 10, padding: 15, backgroundColor: '#FF7421'}} 
         >
-          <Text style={{ color: '#fff' }}>退出</Text>
+          <Text style={{ color: '#fff' }}>点击</Text>
         </MaterialBtn>
       </View>
   )
