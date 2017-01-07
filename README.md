@@ -5,7 +5,7 @@
 
 #### Usage
 ```js
-import MaterialBtn from 'material-btn'
+import MaterialBtn from 'react-native-material-btn'
 
 render() {
   return (
