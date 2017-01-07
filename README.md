@@ -14,13 +14,56 @@ render() {
           rippleColor='rgba(255, 255, 255, 0.2)'
           style={{marginBottom: 10, padding: 15, backgroundColor: '#FF7421'}} 
         >
-          <Text style={{ color: '#fff' }}>点击</Text>
+          <Text style={{ color: '#fff' }}>Click</Text>
         </MaterialBtn>
       </View>
   )
 }
 ```
+#### Properties
 
+```
+withRipple (Boolean) - Show ripple animation (default: true),
+withShadow (Boolean) - Show shadow (default: false),
+shadowLevel (Number) - Shadow radius when button is unpressed (default: 1),
+pressedShadowLevel (Number) - Shadow radius when button is pressed (default: 5),
+shadowColor (String) - Shadow color (default: #000),
+shadowOpacity (Number) - Shadow opacity when button is unpressed (default: 0.4),
+pressedShadowOpacity (Number) - Shadow opacity when button is pressed (default: 0.6),
+animationTime (Number) - Ripple animation time in ms (default: 600),
+rippleColor (String) - Ripple color (Should be transparent) (default: rgba(0,0,0,0.1)),
+styles (Object) - Styles for outer container (margins, ...),
+```
+
+#### Events
+
+```
+onPress: This function is called when the button is pressed.
+onPressIn: This function is called when the button is pressed in.
+onPressOut: This function is called when the button is pressed out :)
+```
+## 中文文档
+
+#### 安装
+`npm install react-native-material-btn --save`
+
+#### 使用
+```js
+import MaterialBtn from 'react-native-material-btn'
+
+render() {
+  return (
+     <View style={styles.logoutBtn}>
+        <MaterialBtn
+          rippleColor='rgba(255, 255, 255, 0.2)'
+          style={{marginBottom: 10, padding: 15, backgroundColor: '#FF7421'}} 
+        >
+          <Text style={{ color: '#fff' }}>Click</Text>
+        </MaterialBtn>
+      </View>
+  )
+}
+```
 #### 属性
 
 ```
